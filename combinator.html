@@ -1,0 +1,42 @@
+<!--Selectors and combinators-->
+<!DOCTYPE html />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>selector and combinators</title>
+</head>
+<style>
+    div p {
+        color: brown;
+
+    }
+
+    div>p {
+        color: green;
+    }
+
+    div p {
+        color: blue;
+    }
+    div + p{
+        font-size: 30px;
+    }
+    div~p{
+        color: aqua;
+    }
+
+</style>
+
+<body>
+    <h1>this is heading</h1>
+    <div>
+        <p> this is a paragraph 1</p>
+        <p> this is a paragraph 2</p>
+        <section>
+            <p> this is a paragraph 3</p>
+        </section>
+    </div>
+    <p> this is a paraph 4</p>
+    <p>this is a paragraph 5</p>
+</body>

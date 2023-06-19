@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="whidth=device-width">
+
+    <title> pesuduo - elemet</title>
+
+    <style>
+        li:nth-child(even) {
+            background: black;
+            color: aqua;
+        }
+
+        p::first-letter-style {
+            color: brown;
+            font-size: 3rem;
+        }
+
+        p::first-line {
+            color: blue;
+            font-size: 3rem;
+        }
+
+        p::selection{
+            color: aqua;
+        }
+
+        .demo::before{
+            content: icon;
+            background: red;
+            display: inline-block;
+        }
+
+        .demo::after{
+            content: icon;
+            background: red;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li>puja</li>
+        <li>asha</li>
+        <li>prem</li>
+        <li>chad</li>
+    </ul>
+    <div class="demo">
+
+        <p><span class="first-letter-styl">O</span>on a social media website, especially Facebook™, a piece of
+            information that you publish about yourself telling people what you are doing, thinking, etc. at a
+            particular time</p>
+        <p>on a social media website, especially Facebook™, a piece of information that you publish about yourself
+            telling people what you are doing, thinking, etc. at a particular time</p>
+        <p>on a social media website, especially Facebook™, a piece of information that you publish about yourself
+            telling people what you are doing, thinking, etc. at a particular time</p>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+h1{
+    background-color: aquamarine;
+
+
+}
+h2{
+    background-color: brown;
+    display: inline;
+
+
+}
+span{
+    background-color: blueviolet;
+}
+.e1{
+    width: 500px;
+    margin: auto;
+    border: 3px solid goldenrod;
+}
+.e2{
+    margin-top: 50px;
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid palevioletred;
+}
